@@ -1,0 +1,17 @@
+{
+  "name": "lec2-diploy_backend_in_produc",
+  "version": "1.0.0",
+  "description": "basic app to diploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "swarup mahata",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
