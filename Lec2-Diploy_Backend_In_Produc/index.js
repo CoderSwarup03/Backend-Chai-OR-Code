@@ -14,6 +14,9 @@ app.get('/about', (req, res) => {
 app.get('/youtube', (req, res) => {
     res.send('<h1>My youtube server</h1>')
 })
+app.get('/profile', (req, res) => {
+    res.send('Welcome to my profiles');
+})
 
 app.listen(process.env.PORT, () => {
     console.log(`My port is listen port is ${port}`)
