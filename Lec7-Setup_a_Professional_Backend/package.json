@@ -2,8 +2,11 @@
   "name": "lec7-setup_a_professional_backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+
   },
   "keywords": [
     "javaScript",
@@ -11,5 +14,8 @@
   ],
   "author": "Swarup Mahata",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
